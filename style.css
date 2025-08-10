@@ -1,0 +1,41 @@
+.game_header_image_ctn {
+    position: relative;
+}
+
+#ukrainizer-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 1px;
+    font-size: 10px;
+    background-color: rgba(247, 246, 25, 0.7);
+    color: #000;
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    z-index: 10;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease;
+}
+
+#ukrainian-localization-tag {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 1px;
+    font-size: 10px;
+    background-color: rgba(247, 246, 25, 0.95);
+    color: #000;
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    z-index: 10;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease;
+}
+
+#ukrainizer-button:hover {
+    background-color: rgba(247, 246, 25, 0.95);
+}
