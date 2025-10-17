@@ -17,7 +17,7 @@
         }
         if (!response || !response.hasGuide) return;
 
-        const guideUrl = `https://steamcommunity.com/app/${appId}/guides/?searchText=українізатор&browsefilter=trend&requiredtags%5B%5D=-1`;
+        const guideUrl = `https://steamcommunity.com/app/${appId}/guides/?searchText=українізатор+українська+локалізація&browsefilter=trend&requiredtags%5B%5D=-1`;
 
         const imageContainer = document.querySelector('.game_header_image_ctn');
         if (imageContainer) {
@@ -42,5 +42,4 @@
         }
         return false;
     }
-
 })();
